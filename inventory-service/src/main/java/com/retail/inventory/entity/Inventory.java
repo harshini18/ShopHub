@@ -14,7 +14,6 @@ public class Inventory {
     @Column(name = "product_id", unique = true)
     private Long productId;
     private Integer quantity = 0;
-    private Integer reservedQuantity = 0;
 	public Long getId() {
 		return id;
 	}
@@ -33,11 +32,6 @@ public class Inventory {
 	public void setQuantity(Integer quantity) {
 		this.quantity = quantity;
 	}
-	public Integer getReservedQuantity() {
-		return reservedQuantity;
-	}
-	public void setReservedQuantity(Integer reservedQuantity) {
-		this.reservedQuantity = reservedQuantity;
-	}
+
     
 }

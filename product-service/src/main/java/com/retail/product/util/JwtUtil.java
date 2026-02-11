@@ -1,4 +1,4 @@
-package com.retail.user.util;
+package com.retail.product.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
